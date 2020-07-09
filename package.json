@@ -1,6 +1,6 @@
 {
   "name": "serverless-s3-deploy",
-  "version": "0.5.0",
+  "version": "0.9.0",
   "description": "S3 Asset copy for serverless",
   "main": "index.js",
   "scripts": {
@@ -12,14 +12,21 @@
     "Dan Rumney <dancrumb@gmail.com>"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkybob/serverless-s3-deploy.git"
+  },
   "dependencies": {
+    "bluebird": "^3.7.2",
     "glob-all": "^3.1.0",
-    "mime-types": "^2.1.14"
+    "mime-types": "^2.1.26"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-standard": "^7.1.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^2.1.1"
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
